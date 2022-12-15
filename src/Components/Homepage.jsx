@@ -1,6 +1,6 @@
-import React from "react";
 import millify from "millify";
 import { Typography, Row, Col, Statistic } from "antd";
+import React from "react";
 import { Link } from "react-router-dom";
 import { useGetCryptosQuery } from "../Services/cryptoApi";
 import { Cryptocurrencies, News } from "../Components";
@@ -61,12 +61,11 @@ export default function Homepage() {
           Latest Crypto News
         </Typography.Title>
 
-        <Typography.Title level={3} className="show more ">
+        <Typography.Title level={3} className="show-more ">
           <Link to="/news">Show More</Link>
         </Typography.Title>
-
-        <News simplified />
       </div>
+      <News simplified />
     </>
   );
 }

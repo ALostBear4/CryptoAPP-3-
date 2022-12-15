@@ -1,0 +1,26 @@
+body {
+  background-image: url("2a.jpg");
+}
+
+#dumb {
+  color: rgb(180, 19, 137);
+  background-color: rgba(150, 39, 245, 0.19);
+  text-align:center;
+}
+
+#submit {
+  background-color: rgb(91, 91, 205);
+}
+
+.container {
+  display:flex;
+  background-color: aliceblue;
+}
+.container1 {
+  display:flex;
+    background-color: rgb(202, 218, 233);
+  }
+  
+.container3 {
+  background-color: rgb(199, 189, 207);
+}
